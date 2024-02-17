@@ -1,0 +1,142 @@
+h1 {
+    font-family:"Tahoma";
+    color: #500000;
+    text-align:center;
+	 padding:-5px;
+    text-shadow: 2px 0 #FFA800, -2px 0 #FFA800, 0 2px #FFA800, 0 -2px #FFA800,
+                1px 1px #FFA800, -1px -1px #FFA800, 1px -1px #FFA800, -1px 1px #FFA800;
+}
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: -1; 
+}
+body {
+    background-image: url(https://i.imgur.com/iwM3vxe.png);
+	background-size: cover;
+	background-attachment: fixed;
+	font-family:"Tahoma";
+}
+
+h2 {
+    color:#500000;
+    text-align:center;
+	font-family:"Tahoma";
+    text-shadow: 2px 0 #FFA800, -2px 0 #FFA800, 0 2px #FFA800, 0 -2px #FFA800,
+                 1px 1px #FFA800, -1px -1px #FFA800, 1px -1px #FFA800, -1px 1px #FFA800;
+}
+p { 
+    color:#faaa04;
+    text-align:center;
+    padding:25px;
+	font-family:"Tahoma";
+	font-size:16px;
+}
+ul {
+    color:#faaa04;
+    text-align:center;
+    list-style-position: inside;
+	 font-family:"Tahoma";
+}
+h3 {
+    color:#faaa04;
+    text-align:center;
+	font-family:"Tahoma";
+}
+h5 { 
+    color:#faaa04;
+    text-align:center;
+	font-family:"Tahoma";
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	font-family:"Tahoma";
+	padding:5px;
+}
+h4 { 
+    color:#faaa04;
+    text-align:center;
+	font-family:"Tahoma";
+}
+a  {
+	color:#faaa04;
+    text-align:center;
+	font-family:"Tahoma";
+}
+button {
+    padding: 5px 10px;
+    font-size: 16px;
+	 font-style: "Tahoma";
+    background-color: #08101A;
+    color: #500000;
+    border: 3px solid #faaa04;
+    cursor: pointer;
+	 text-shadow: 2px 0 #FFA800, -2px 0 #FFA800, 0 2px #FFA800, 0 -2px #FFA800,
+                1px 1px #FFA800, -1px -1px #FFA800, 1px -1px #FFA800, -1px 1px #FFA800;
+	 text-align:center;
+	 border-radius: 10px;
+}
+.title-container {
+    background-image: url(images/2.png);
+	 
+    background-size: cover;
+    background-position: center center;=
+    padding: 20px;
+    border-radius: 10px;
+	 border: 5px solid #faaa04;
+}
+.title-container2 {
+    background-image: url(https://i.imgur.com/kaKcDmG.png);
+    background-size: cover;
+    background-position: center center;
+    padding: 20px;
+    border-radius: 10px;
+	border: 5px solid #faaa04;
+}
+.title-container3 {
+    background-image: url(https://i.imgur.com/DhhtjCG.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 20px;
+    border-radius: 10px;
+	 border: 5px solid #faaa04;
+}
+#navbar {
+    overflow: hidden;
+    background-image: url(images/3.png);
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+	border: 5px solid #faaa04;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+.sticky + .content {
+  padding-top: 60px;
+}
