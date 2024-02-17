@@ -84,7 +84,7 @@ button {
 	 border-radius: 10px;
 }
 .title-container {
-    background-image: url(images/2.png);
+    background-image: url(2.png);
 	 
     background-size: cover;
     background-position: center center;=
@@ -110,7 +110,7 @@ button {
 }
 #navbar {
     overflow: hidden;
-    background-image: url(images/3.png);
+    background-image: url(3.png);
     background-size: cover;
     background-position: center center;
     border-radius: 10px;
